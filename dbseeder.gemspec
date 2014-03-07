@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Rolando Alvarado"]
   s.email       = 'rorroland@gmail.com'
   s.files       = ["lib/dbseeder.rb", "lib/dbseeder/admin.rb", "lib/dbseeder/connection.rb"]
+  s.files       = Dir.glob("{lib}/**/*") + %w(LICENSE README.md CHANGELOG.md)
   s.homepage    =
     'http://rubygems.org/gems/dbseeder'
   s.license       = 'MIT'
